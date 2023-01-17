@@ -1,0 +1,6 @@
+filter_resuls(gpt.generate(
+text="Артём, 25 лет. Он смотрел фильмы: 'Унесённые призраками','Твоё имя', ",
+max_length=120,
+num_beams=3,
+no_repeat_ngram_size=3,
+repetition_penalty=2.))
